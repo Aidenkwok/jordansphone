@@ -1,0 +1,1 @@
+$(document).ready(function(){setInterval(function(){var e=new Date,t=e.getHours()+":"+e.getMinutes();16===e.getHours()&&$(".video").replaceWith('<iframe src="https://www.youtube.com/embed/bfUBz0-jjg4?rel=0&amp;controls=0&amp;showinfo=0?rel=0&autoplay=1&loop=1" frameborder="0" allowfullscreen style="position: relative; height: 100%; width: 100%;"></iframe>')},3e3)});
